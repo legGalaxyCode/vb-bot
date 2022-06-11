@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "title": "VB Bot Sheet",
+        "locale": "ru_RU"
+    },
+    "sheets": [
+        {
+            "properties": {
+                "sheetType": "GRID",
+                "sheetId": 0,
+                "title": "English",
+                "gridProperties": {
+                    "rowCount": 100,
+                    "columnCount": 5
+                }
+            }
+        }
+    ]
+}

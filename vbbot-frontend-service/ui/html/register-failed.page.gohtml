@@ -1,0 +1,38 @@
+{{template "base" .}}
+
+{{define "title"}}
+    Register page
+{{end}}
+
+{{define "main"}}
+    <div>
+        <form id="loginForm" method="POST" action="/register">
+            <div class="imgcontainer">
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container" id="formDiv">
+                <input type="hidden" name="action" value="register">
+
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter username" name="username" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Username" name="email" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+
+                <button type="submit" id="loginBtn">Register</button>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <strong style="color: #f44336">Register failed</strong>
+            </div>
+        </form>
+    </div>
+{{end}}
+
+{{define "js"}}
+
+{{end}}
